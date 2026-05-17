@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  font-family: 'Manrope', 'Avenir Next', 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #d7dfeb;
+  background:
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.14), transparent 24%),
+    radial-gradient(circle at top right, rgba(245, 158, 11, 0.12), transparent 20%),
+    linear-gradient(180deg, #09111d 0%, #0d1726 52%, #111827 100%);
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: transparent;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+button:focus-visible {
+  outline: 3px solid rgba(96, 165, 250, 0.45);
+  outline-offset: 2px;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
