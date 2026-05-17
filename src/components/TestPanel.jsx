@@ -11,7 +11,6 @@ function TestButton({ testCase, isActive, onSelect }) {
       <div className="test-button-head">
         <div>
           <p className="test-button-title">{testCase.label}</p>
-          <p className="test-button-subtitle">{testCase.type} test case</p>
         </div>
         <span className={`type-badge ${testCase.type.toLowerCase()}`}>{testCase.type}</span>
       </div>
@@ -80,7 +79,6 @@ function TestPanel() {
             <h2>Current Test Status</h2>
             <p>Quick proof that the selected case loaded correctly.</p>
           </div>
-          <span className="result-badge pass">Passed</span>
         </div>
 
         <div className="status-layout">
@@ -98,8 +96,8 @@ function TestPanel() {
             </article>
 
             <article className="status-item">
-              <h3>What To Check</h3>
-              <p>Pass</p>
+              <h3>Result</h3>
+              <p>Passed</p>
               <p className="status-note">{activeTestCase.expectation}</p>
             </article>
           </div>

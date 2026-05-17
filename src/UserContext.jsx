@@ -25,7 +25,7 @@ const testCases = [
       email: 'maya@example.com',
       theme: 'Dark',
     },
-    expectation: 'Profile updates instantly and the dark preference displays correctly.',
+    expectation: 'Profile updates instantly and the active test stays clear.',
     status: 'Normal Test 2 loaded successfully.',
   },
   {

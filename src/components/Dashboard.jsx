@@ -44,12 +44,8 @@ function Dashboard() {
         </section>
 
         <section className="dashboard-grid">
-          <div className="left-column">
-            <UserProfile />
-          </div>
-          <div className="right-column">
-            <Sidebar />
-          </div>
+          <UserProfile />
+          <Sidebar />
         </section>
       </div>
     </main>
